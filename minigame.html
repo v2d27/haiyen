@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trò chơi tìm cặp hình</title>
+  <link rel="stylesheet" href="minigame.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GHÉP HÌNH CÙNG ĂN VẶT THỜI @</h1>
+
+    <div id="form-container" class="active">
+      <form id="user-form">
+        <input type="text" id="name" placeholder="Nhập tên của bạn" required>
+        <input type="tel" id="phone" placeholder="Nhập số điện thoại của bạn" required>
+        <input type="email" id="email" placeholder="Nhập email của bạn" required>
+        <button type="submit">Bắt đầu chơi</button>
+      </form>
+    </div>
+
+    <div id="game-container">
+      <div id="timer">Thời gian: 0 giây</div>
+      <div id="game-board"></div>
+    </div>
+  </div>
+  <script src="minigame.js"></script>
+</body>
+</html>
